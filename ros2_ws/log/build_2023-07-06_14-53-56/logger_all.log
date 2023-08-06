@@ -1,0 +1,421 @@
+[0.418s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.418s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f365746c730>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f36574a93c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f36574a93c0>>)
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.437s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/peeranut/ros2_ws'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'ignore_ament_install'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['colcon_pkg']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'colcon_meta'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['ros']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'ros'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['cmake', 'python']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'cmake'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'python'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['python_setup_py']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'python_setup_py'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'ignore'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'ignore_ament_install'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extensions ['colcon_pkg']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'colcon_pkg'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extensions ['colcon_meta']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'colcon_meta'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extensions ['ros']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'ros'
+[0.448s] DEBUG:colcon.colcon_core.package_identification:Package 'src/m-explore-ros2/explore' with type 'ros.ament_cmake' and name 'explore_lite'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extension 'ignore_ament_install'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extensions ['colcon_pkg']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extension 'colcon_pkg'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extensions ['colcon_meta']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extension 'colcon_meta'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extensions ['ros']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extension 'ros'
+[0.449s] DEBUG:colcon.colcon_core.package_identification:Package 'src/m-explore-ros2/map_merge' with type 'ros.ament_cmake' and name 'multirobot_map_merge'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotic_course_assessment_task_2023) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotic_course_assessment_task_2023) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotic_course_assessment_task_2023) by extension 'ignore_ament_install'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotic_course_assessment_task_2023) by extensions ['colcon_pkg']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotic_course_assessment_task_2023) by extension 'colcon_pkg'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotic_course_assessment_task_2023) by extensions ['colcon_meta']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotic_course_assessment_task_2023) by extension 'colcon_meta'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotic_course_assessment_task_2023) by extensions ['ros']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotic_course_assessment_task_2023) by extension 'ros'
+[0.449s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mobile_robotic_course_assessment_task_2023' with type 'ros.ament_cmake' and name 'mobile_robotic_course_assessment_task_2023'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_nav2_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_nav2_ros2) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_nav2_ros2) by extension 'ignore_ament_install'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_nav2_ros2) by extensions ['colcon_pkg']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_nav2_ros2) by extension 'colcon_pkg'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_nav2_ros2) by extensions ['colcon_meta']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_nav2_ros2) by extension 'colcon_meta'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_nav2_ros2) by extensions ['ros']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_nav2_ros2) by extension 'ros'
+[0.449s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simple_robot_nav2_ros2' with type 'ros.ament_cmake' and name 'simple_robot_nav2_ros2'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_ros2) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_ros2) by extension 'ignore_ament_install'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_ros2) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_ros2) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_ros2) by extensions ['colcon_meta']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_ros2) by extension 'colcon_meta'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_ros2) by extensions ['ros']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_ros2) by extension 'ros'
+[0.450s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simple_robot_ros2' with type 'ros.ament_cmake' and name 'simple_robot_ros2'
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.466s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/peeranut/ros2_ws/install
+[0.466s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 377 installed packages in /opt/ros/humble
+[0.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_args' from command line to 'None'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_target' from command line to 'None'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_clean_cache' from command line to 'False'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_clean_first' from command line to 'False'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_force_configure' from command line to 'False'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'ament_cmake_args' from command line to 'None'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'catkin_cmake_args' from command line to 'None'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.506s] DEBUG:colcon.colcon_core.verb:Building package 'explore_lite' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/peeranut/ros2_ws/build/explore_lite', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/peeranut/ros2_ws/install/explore_lite', 'merge_install': False, 'path': '/home/peeranut/ros2_ws/src/m-explore-ros2/explore', 'symlink_install': False, 'test_result_base': None}
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotic_course_assessment_task_2023' build argument 'cmake_args' from command line to 'None'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotic_course_assessment_task_2023' build argument 'cmake_target' from command line to 'None'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotic_course_assessment_task_2023' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotic_course_assessment_task_2023' build argument 'cmake_clean_cache' from command line to 'False'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotic_course_assessment_task_2023' build argument 'cmake_clean_first' from command line to 'False'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotic_course_assessment_task_2023' build argument 'cmake_force_configure' from command line to 'False'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotic_course_assessment_task_2023' build argument 'ament_cmake_args' from command line to 'None'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotic_course_assessment_task_2023' build argument 'catkin_cmake_args' from command line to 'None'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotic_course_assessment_task_2023' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.506s] DEBUG:colcon.colcon_core.verb:Building package 'mobile_robotic_course_assessment_task_2023' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/peeranut/ros2_ws/build/mobile_robotic_course_assessment_task_2023', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/peeranut/ros2_ws/install/mobile_robotic_course_assessment_task_2023', 'merge_install': False, 'path': '/home/peeranut/ros2_ws/src/mobile_robotic_course_assessment_task_2023', 'symlink_install': False, 'test_result_base': None}
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_target' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_clean_first' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_force_configure' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'ament_cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.507s] DEBUG:colcon.colcon_core.verb:Building package 'multirobot_map_merge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/peeranut/ros2_ws/build/multirobot_map_merge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/peeranut/ros2_ws/install/multirobot_map_merge', 'merge_install': False, 'path': '/home/peeranut/ros2_ws/src/m-explore-ros2/map_merge', 'symlink_install': False, 'test_result_base': None}
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_nav2_ros2' build argument 'cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_nav2_ros2' build argument 'cmake_target' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_nav2_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_nav2_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_nav2_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_nav2_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_nav2_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_nav2_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_nav2_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.507s] DEBUG:colcon.colcon_core.verb:Building package 'simple_robot_nav2_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/peeranut/ros2_ws/build/simple_robot_nav2_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/peeranut/ros2_ws/install/simple_robot_nav2_ros2', 'merge_install': False, 'path': '/home/peeranut/ros2_ws/src/simple_robot_nav2_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_ros2' build argument 'cmake_args' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_ros2' build argument 'cmake_target' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.508s] DEBUG:colcon.colcon_core.verb:Building package 'simple_robot_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/peeranut/ros2_ws/build/simple_robot_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/peeranut/ros2_ws/install/simple_robot_ros2', 'merge_install': False, 'path': '/home/peeranut/ros2_ws/src/simple_robot_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.508s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.511s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.511s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/peeranut/ros2_ws/src/m-explore-ros2/explore' with build type 'ament_cmake'
+[0.511s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/peeranut/ros2_ws/src/m-explore-ros2/explore'
+[0.513s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.514s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.514s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.516s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/peeranut/ros2_ws/src/mobile_robotic_course_assessment_task_2023' with build type 'ament_cmake'
+[0.517s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/peeranut/ros2_ws/src/mobile_robotic_course_assessment_task_2023'
+[0.517s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.517s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.520s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/peeranut/ros2_ws/src/m-explore-ros2/map_merge' with build type 'ament_cmake'
+[0.520s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/peeranut/ros2_ws/src/m-explore-ros2/map_merge'
+[0.521s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.521s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.525s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/peeranut/ros2_ws/src/simple_robot_nav2_ros2' with build type 'ament_cmake'
+[0.525s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/peeranut/ros2_ws/src/simple_robot_nav2_ros2'
+[0.525s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.526s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.529s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/peeranut/ros2_ws/src/simple_robot_ros2' with build type 'ament_cmake'
+[0.529s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/peeranut/ros2_ws/src/simple_robot_ros2'
+[0.530s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.530s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/peeranut/ros2_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/peeranut/ros2_ws/build/explore_lite -- -j20 -l20
+[0.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/peeranut/ros2_ws/build/mobile_robotic_course_assessment_task_2023': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/peeranut/ros2_ws/build/mobile_robotic_course_assessment_task_2023 -- -j20 -l20
+[0.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/peeranut/ros2_ws/build/multirobot_map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/peeranut/ros2_ws/build/multirobot_map_merge -- -j20 -l20
+[0.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/peeranut/ros2_ws/build/simple_robot_nav2_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/peeranut/ros2_ws/build/simple_robot_nav2_ros2 -- -j20 -l20
+[0.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/peeranut/ros2_ws/build/simple_robot_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/peeranut/ros2_ws/build/simple_robot_ros2 -- -j20 -l20
+[0.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/peeranut/ros2_ws/build/simple_robot_nav2_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/peeranut/ros2_ws/build/simple_robot_nav2_ros2 -- -j20 -l20
+[0.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/peeranut/ros2_ws/build/simple_robot_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/peeranut/ros2_ws/build/simple_robot_ros2 -- -j20 -l20
+[0.588s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/peeranut/ros2_ws/build/simple_robot_nav2_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/peeranut/ros2_ws/build/simple_robot_nav2_ros2
+[0.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/peeranut/ros2_ws/build/simple_robot_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/peeranut/ros2_ws/build/simple_robot_ros2
+[0.600s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_robot_nav2_ros2)
+[0.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/peeranut/ros2_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/peeranut/ros2_ws/build/explore_lite -- -j20 -l20
+[0.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/peeranut/ros2_ws/build/simple_robot_nav2_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/peeranut/ros2_ws/build/simple_robot_nav2_ros2
+[0.607s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/simple_robot_nav2_ros2' for CMake module files
+[0.608s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/simple_robot_nav2_ros2' for CMake config files
+[0.608s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_robot_nav2_ros2', 'cmake_prefix_path')
+[0.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/hook/cmake_prefix_path.ps1'
+[0.609s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/hook/cmake_prefix_path.dsv'
+[0.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/hook/cmake_prefix_path.sh'
+[0.610s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/bin'
+[0.610s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/lib/pkgconfig/simple_robot_nav2_ros2.pc'
+[0.610s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/lib/python3.10/site-packages'
+[0.610s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/bin'
+[0.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/package.ps1'
+[0.612s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/package.dsv'
+[0.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/package.sh'
+[0.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/package.bash'
+[0.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/package.zsh'
+[0.613s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/colcon-core/packages/simple_robot_nav2_ros2)
+[0.614s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_robot_ros2)
+[0.615s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/simple_robot_ros2' for CMake module files
+[0.616s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/peeranut/ros2_ws/build/simple_robot_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/peeranut/ros2_ws/build/simple_robot_ros2
+[0.616s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/simple_robot_ros2' for CMake config files
+[0.616s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_robot_ros2', 'cmake_prefix_path')
+[0.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peeranut/ros2_ws/install/simple_robot_ros2/share/simple_robot_ros2/hook/cmake_prefix_path.ps1'
+[0.618s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/peeranut/ros2_ws/install/simple_robot_ros2/share/simple_robot_ros2/hook/cmake_prefix_path.dsv'
+[0.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peeranut/ros2_ws/install/simple_robot_ros2/share/simple_robot_ros2/hook/cmake_prefix_path.sh'
+[0.619s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/simple_robot_ros2/bin'
+[0.619s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/simple_robot_ros2/lib/pkgconfig/simple_robot_ros2.pc'
+[0.619s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/simple_robot_ros2/lib/python3.10/site-packages'
+[0.619s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/simple_robot_ros2/bin'
+[0.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/simple_robot_ros2/share/simple_robot_ros2/package.ps1'
+[0.620s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/peeranut/ros2_ws/install/simple_robot_ros2/share/simple_robot_ros2/package.dsv'
+[0.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/simple_robot_ros2/share/simple_robot_ros2/package.sh'
+[0.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/simple_robot_ros2/share/simple_robot_ros2/package.bash'
+[0.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/simple_robot_ros2/share/simple_robot_ros2/package.zsh'
+[0.620s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/peeranut/ros2_ws/install/simple_robot_ros2/share/colcon-core/packages/simple_robot_ros2)
+[0.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/peeranut/ros2_ws/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/peeranut/ros2_ws/build/multirobot_map_merge -- -j20 -l20
+[0.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/peeranut/ros2_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/peeranut/ros2_ws/build/explore_lite
+[0.628s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_robot_nav2_ros2)
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/simple_robot_nav2_ros2' for CMake module files
+[0.633s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/simple_robot_nav2_ros2' for CMake config files
+[0.633s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_robot_nav2_ros2', 'cmake_prefix_path')
+[0.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/hook/cmake_prefix_path.ps1'
+[0.635s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/hook/cmake_prefix_path.dsv'
+[0.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/hook/cmake_prefix_path.sh'
+[0.635s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/bin'
+[0.635s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/lib/pkgconfig/simple_robot_nav2_ros2.pc'
+[0.635s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/lib/python3.10/site-packages'
+[0.636s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/bin'
+[0.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/package.ps1'
+[0.637s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/package.dsv'
+[0.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/package.sh'
+[0.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/package.bash'
+[0.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/package.zsh'
+[0.638s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/colcon-core/packages/simple_robot_nav2_ros2)
+[0.640s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_robot_ros2)
+[0.641s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/simple_robot_ros2' for CMake module files
+[0.642s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/simple_robot_ros2' for CMake config files
+[0.642s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_robot_ros2', 'cmake_prefix_path')
+[0.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peeranut/ros2_ws/install/simple_robot_ros2/share/simple_robot_ros2/hook/cmake_prefix_path.ps1'
+[0.643s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/peeranut/ros2_ws/install/simple_robot_ros2/share/simple_robot_ros2/hook/cmake_prefix_path.dsv'
+[0.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peeranut/ros2_ws/install/simple_robot_ros2/share/simple_robot_ros2/hook/cmake_prefix_path.sh'
+[0.644s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/simple_robot_ros2/bin'
+[0.644s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/simple_robot_ros2/lib/pkgconfig/simple_robot_ros2.pc'
+[0.644s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/simple_robot_ros2/lib/python3.10/site-packages'
+[0.644s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/simple_robot_ros2/bin'
+[0.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/simple_robot_ros2/share/simple_robot_ros2/package.ps1'
+[0.645s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/peeranut/ros2_ws/install/simple_robot_ros2/share/simple_robot_ros2/package.dsv'
+[0.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/simple_robot_ros2/share/simple_robot_ros2/package.sh'
+[0.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/simple_robot_ros2/share/simple_robot_ros2/package.bash'
+[0.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/simple_robot_ros2/share/simple_robot_ros2/package.zsh'
+[0.646s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/peeranut/ros2_ws/install/simple_robot_ros2/share/colcon-core/packages/simple_robot_ros2)
+[0.647s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explore_lite)
+[0.648s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/explore_lite' for CMake module files
+[0.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/peeranut/ros2_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/peeranut/ros2_ws/build/explore_lite
+[0.649s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/explore_lite' for CMake config files
+[0.649s] Level 1:colcon.colcon_core.shell:create_environment_hook('explore_lite', 'cmake_prefix_path')
+[0.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.ps1'
+[0.650s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.dsv'
+[0.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.sh'
+[0.651s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/explore_lite/lib'
+[0.651s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/explore_lite/bin'
+[0.651s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/explore_lite/lib/pkgconfig/explore_lite.pc'
+[0.651s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/explore_lite/lib/python3.10/site-packages'
+[0.651s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/explore_lite/bin'
+[0.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/package.ps1'
+[0.652s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/package.dsv'
+[0.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/package.sh'
+[0.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/package.bash'
+[0.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/package.zsh'
+[0.653s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/peeranut/ros2_ws/install/explore_lite/share/colcon-core/packages/explore_lite)
+[0.654s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/peeranut/ros2_ws/build/multirobot_map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/peeranut/ros2_ws/build/multirobot_map_merge
+[0.664s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multirobot_map_merge)
+[0.665s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/multirobot_map_merge' for CMake module files
+[0.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/peeranut/ros2_ws/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/peeranut/ros2_ws/build/multirobot_map_merge
+[0.668s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/multirobot_map_merge' for CMake config files
+[0.668s] Level 1:colcon.colcon_core.shell:create_environment_hook('multirobot_map_merge', 'cmake_prefix_path')
+[0.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peeranut/ros2_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.ps1'
+[0.669s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/peeranut/ros2_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.dsv'
+[0.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peeranut/ros2_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.sh'
+[0.670s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/multirobot_map_merge/lib'
+[0.670s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/multirobot_map_merge/bin'
+[0.670s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/multirobot_map_merge/lib/pkgconfig/multirobot_map_merge.pc'
+[0.670s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/multirobot_map_merge/lib/python3.10/site-packages'
+[0.670s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/multirobot_map_merge/bin'
+[0.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.ps1'
+[0.671s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/peeranut/ros2_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.dsv'
+[0.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.sh'
+[0.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.bash'
+[0.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.zsh'
+[0.672s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/peeranut/ros2_ws/install/multirobot_map_merge/share/colcon-core/packages/multirobot_map_merge)
+[0.673s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explore_lite)
+[0.674s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/explore_lite' for CMake module files
+[0.675s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/explore_lite' for CMake config files
+[0.675s] Level 1:colcon.colcon_core.shell:create_environment_hook('explore_lite', 'cmake_prefix_path')
+[0.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.ps1'
+[0.675s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.dsv'
+[0.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.sh'
+[0.676s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/explore_lite/lib'
+[0.676s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/explore_lite/bin'
+[0.676s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/explore_lite/lib/pkgconfig/explore_lite.pc'
+[0.676s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/explore_lite/lib/python3.10/site-packages'
+[0.676s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/explore_lite/bin'
+[0.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/package.ps1'
+[0.677s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/package.dsv'
+[0.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/package.sh'
+[0.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/package.bash'
+[0.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/package.zsh'
+[0.678s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/peeranut/ros2_ws/install/explore_lite/share/colcon-core/packages/explore_lite)
+[0.692s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multirobot_map_merge)
+[0.693s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/multirobot_map_merge' for CMake module files
+[0.693s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/multirobot_map_merge' for CMake config files
+[0.693s] Level 1:colcon.colcon_core.shell:create_environment_hook('multirobot_map_merge', 'cmake_prefix_path')
+[0.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peeranut/ros2_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.ps1'
+[0.694s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/peeranut/ros2_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.dsv'
+[0.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peeranut/ros2_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.sh'
+[0.694s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/multirobot_map_merge/lib'
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/multirobot_map_merge/bin'
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/multirobot_map_merge/lib/pkgconfig/multirobot_map_merge.pc'
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/multirobot_map_merge/lib/python3.10/site-packages'
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/multirobot_map_merge/bin'
+[0.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.ps1'
+[0.696s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/peeranut/ros2_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.dsv'
+[0.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.sh'
+[0.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.bash'
+[0.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.zsh'
+[0.697s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/peeranut/ros2_ws/install/multirobot_map_merge/share/colcon-core/packages/multirobot_map_merge)
+[2.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/peeranut/ros2_ws/build/mobile_robotic_course_assessment_task_2023' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/peeranut/ros2_ws/build/mobile_robotic_course_assessment_task_2023 -- -j20 -l20
+[2.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/peeranut/ros2_ws/build/mobile_robotic_course_assessment_task_2023': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/peeranut/ros2_ws/build/mobile_robotic_course_assessment_task_2023
+[2.804s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mobile_robotic_course_assessment_task_2023)
+[2.805s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/mobile_robotic_course_assessment_task_2023' for CMake module files
+[2.806s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/mobile_robotic_course_assessment_task_2023' for CMake config files
+[2.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/peeranut/ros2_ws/build/mobile_robotic_course_assessment_task_2023' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/peeranut/ros2_ws/build/mobile_robotic_course_assessment_task_2023
+[2.825s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobile_robotic_course_assessment_task_2023', 'cmake_prefix_path')
+[2.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peeranut/ros2_ws/install/mobile_robotic_course_assessment_task_2023/share/mobile_robotic_course_assessment_task_2023/hook/cmake_prefix_path.ps1'
+[2.826s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/peeranut/ros2_ws/install/mobile_robotic_course_assessment_task_2023/share/mobile_robotic_course_assessment_task_2023/hook/cmake_prefix_path.dsv'
+[2.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peeranut/ros2_ws/install/mobile_robotic_course_assessment_task_2023/share/mobile_robotic_course_assessment_task_2023/hook/cmake_prefix_path.sh'
+[2.826s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/mobile_robotic_course_assessment_task_2023/bin'
+[2.826s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/mobile_robotic_course_assessment_task_2023/lib/pkgconfig/mobile_robotic_course_assessment_task_2023.pc'
+[2.826s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/mobile_robotic_course_assessment_task_2023/lib/python3.10/site-packages'
+[2.826s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/mobile_robotic_course_assessment_task_2023/bin'
+[2.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/mobile_robotic_course_assessment_task_2023/share/mobile_robotic_course_assessment_task_2023/package.ps1'
+[2.827s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/peeranut/ros2_ws/install/mobile_robotic_course_assessment_task_2023/share/mobile_robotic_course_assessment_task_2023/package.dsv'
+[2.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/mobile_robotic_course_assessment_task_2023/share/mobile_robotic_course_assessment_task_2023/package.sh'
+[2.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/mobile_robotic_course_assessment_task_2023/share/mobile_robotic_course_assessment_task_2023/package.bash'
+[2.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/mobile_robotic_course_assessment_task_2023/share/mobile_robotic_course_assessment_task_2023/package.zsh'
+[2.828s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/peeranut/ros2_ws/install/mobile_robotic_course_assessment_task_2023/share/colcon-core/packages/mobile_robotic_course_assessment_task_2023)
+[2.841s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mobile_robotic_course_assessment_task_2023)
+[2.842s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/mobile_robotic_course_assessment_task_2023' for CMake module files
+[2.842s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/mobile_robotic_course_assessment_task_2023' for CMake config files
+[2.843s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobile_robotic_course_assessment_task_2023', 'cmake_prefix_path')
+[2.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peeranut/ros2_ws/install/mobile_robotic_course_assessment_task_2023/share/mobile_robotic_course_assessment_task_2023/hook/cmake_prefix_path.ps1'
+[2.844s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/peeranut/ros2_ws/install/mobile_robotic_course_assessment_task_2023/share/mobile_robotic_course_assessment_task_2023/hook/cmake_prefix_path.dsv'
+[2.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peeranut/ros2_ws/install/mobile_robotic_course_assessment_task_2023/share/mobile_robotic_course_assessment_task_2023/hook/cmake_prefix_path.sh'
+[2.844s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/mobile_robotic_course_assessment_task_2023/bin'
+[2.844s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/mobile_robotic_course_assessment_task_2023/lib/pkgconfig/mobile_robotic_course_assessment_task_2023.pc'
+[2.844s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/mobile_robotic_course_assessment_task_2023/lib/python3.10/site-packages'
+[2.844s] Level 1:colcon.colcon_core.environment:checking '/home/peeranut/ros2_ws/install/mobile_robotic_course_assessment_task_2023/bin'
+[2.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/mobile_robotic_course_assessment_task_2023/share/mobile_robotic_course_assessment_task_2023/package.ps1'
+[2.845s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/peeranut/ros2_ws/install/mobile_robotic_course_assessment_task_2023/share/mobile_robotic_course_assessment_task_2023/package.dsv'
+[2.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/mobile_robotic_course_assessment_task_2023/share/mobile_robotic_course_assessment_task_2023/package.sh'
+[2.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/mobile_robotic_course_assessment_task_2023/share/mobile_robotic_course_assessment_task_2023/package.bash'
+[2.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/peeranut/ros2_ws/install/mobile_robotic_course_assessment_task_2023/share/mobile_robotic_course_assessment_task_2023/package.zsh'
+[2.846s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/peeranut/ros2_ws/install/mobile_robotic_course_assessment_task_2023/share/colcon-core/packages/mobile_robotic_course_assessment_task_2023)
+[2.847s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.847s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.847s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.847s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.002s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[3.002s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.002s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.002s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.004s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[3.004s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.005s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/peeranut/ros2_ws/install/local_setup.ps1'
+[3.005s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/peeranut/ros2_ws/install/_local_setup_util_ps1.py'
+[3.006s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/peeranut/ros2_ws/install/setup.ps1'
+[3.007s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/peeranut/ros2_ws/install/local_setup.sh'
+[3.007s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/peeranut/ros2_ws/install/_local_setup_util_sh.py'
+[3.007s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/peeranut/ros2_ws/install/setup.sh'
+[3.008s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/peeranut/ros2_ws/install/local_setup.bash'
+[3.008s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/peeranut/ros2_ws/install/setup.bash'
+[3.009s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/peeranut/ros2_ws/install/local_setup.zsh'
+[3.009s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/peeranut/ros2_ws/install/setup.zsh'

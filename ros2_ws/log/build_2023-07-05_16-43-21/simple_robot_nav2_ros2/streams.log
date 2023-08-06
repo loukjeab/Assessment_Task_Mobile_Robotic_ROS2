@@ -1,0 +1,35 @@
+[0.022s] Invoking command in '/home/peeranut/ros2_ws/build/simple_robot_nav2_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/peeranut/ros2_ws/build/simple_robot_nav2_ros2 -- -j20 -l20
+[0.036s] Invoked command in '/home/peeranut/ros2_ws/build/simple_robot_nav2_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/peeranut/ros2_ws/build/simple_robot_nav2_ros2 -- -j20 -l20
+[0.054s] Invoking command in '/home/peeranut/ros2_ws/build/simple_robot_nav2_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/peeranut/ros2_ws/build/simple_robot_nav2_ros2
+[0.062s] -- Install configuration: ""
+[0.062s] -- Up-to-date: /home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/config
+[0.063s] -- Up-to-date: /home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/config/twist_mux.yaml
+[0.063s] -- Up-to-date: /home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/config/amcl.yaml
+[0.063s] -- Up-to-date: /home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/config/simple_diff_drive.yaml
+[0.063s] -- Up-to-date: /home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/launch
+[0.063s] -- Up-to-date: /home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/launch/simple_robot_nav2_bringup.launch.py
+[0.063s] -- Up-to-date: /home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/launch/simple_robot_nav2.launch.py
+[0.069s] -- Up-to-date: /home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/worlds
+[0.069s] -- Up-to-date: /home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/worlds/simple_world.world
+[0.069s] -- Up-to-date: /home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/urdf
+[0.069s] -- Up-to-date: /home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/urdf/simple_robot_nav2.urdf.xacro
+[0.069s] -- Up-to-date: /home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/rviz
+[0.069s] -- Up-to-date: /home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/rviz/simple_robot_nav2.rviz
+[0.069s] -- Up-to-date: /home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/meshes
+[0.069s] -- Up-to-date: /home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/meshes/hokuyo.dae
+[0.069s] -- Up-to-date: /home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/ament_index/resource_index/package_run_dependencies/simple_robot_nav2_ros2
+[0.070s] -- Up-to-date: /home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/ament_index/resource_index/parent_prefix_path/simple_robot_nav2_ros2
+[0.070s] -- Up-to-date: /home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/environment/ament_prefix_path.sh
+[0.070s] -- Up-to-date: /home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/environment/ament_prefix_path.dsv
+[0.070s] -- Up-to-date: /home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/environment/path.sh
+[0.070s] -- Up-to-date: /home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/environment/path.dsv
+[0.070s] -- Up-to-date: /home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/local_setup.bash
+[0.070s] -- Up-to-date: /home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/local_setup.sh
+[0.070s] -- Up-to-date: /home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/local_setup.zsh
+[0.070s] -- Up-to-date: /home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/local_setup.dsv
+[0.070s] -- Installing: /home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/package.dsv
+[0.070s] -- Up-to-date: /home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/ament_index/resource_index/packages/simple_robot_nav2_ros2
+[0.071s] -- Up-to-date: /home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/cmake/simple_robot_nav2_ros2Config.cmake
+[0.071s] -- Up-to-date: /home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/cmake/simple_robot_nav2_ros2Config-version.cmake
+[0.071s] -- Up-to-date: /home/peeranut/ros2_ws/install/simple_robot_nav2_ros2/share/simple_robot_nav2_ros2/package.xml
+[0.095s] Invoked command in '/home/peeranut/ros2_ws/build/simple_robot_nav2_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/peeranut/ros2_ws/build/simple_robot_nav2_ros2

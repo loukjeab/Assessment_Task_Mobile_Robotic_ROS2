@@ -1,0 +1,4 @@
+Invoking command in '/home/peeranut/ros2_ws/build/multirobot_map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/peeranut/ros2_ws/build/multirobot_map_merge -- -j20 -l20
+Invoked command in '/home/peeranut/ros2_ws/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/peeranut/ros2_ws/build/multirobot_map_merge -- -j20 -l20
+Invoking command in '/home/peeranut/ros2_ws/build/multirobot_map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/peeranut/ros2_ws/build/multirobot_map_merge
+Invoked command in '/home/peeranut/ros2_ws/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/peeranut/ros2_ws/build/multirobot_map_merge

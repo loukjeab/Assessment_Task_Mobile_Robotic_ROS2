@@ -1,0 +1,13 @@
+explore_node:
+  ros__parameters:
+    robot_base_frame: base_link
+    costmap_topic: /global_costmap/costmap
+    costmap_updates_topic: /global_costmap/costmap_updates
+    visualize: true
+    planner_frequency: 0.05 # original = 0.15 s # Reduced to increase the frequency of exploration
+    progress_timeout: 60.0 # original = 30.0 s # Increase to make sure timeout of progress is longer
+    potential_scale: 3.0
+    orientation_scale: 0.0
+    gain_scale: 1.0
+    transform_tolerance: 0.3
+    min_frontier_size: 0.25 # orginal = 0.5 # Reduced to allow the robot to consider smaller frontiers as exploration targets

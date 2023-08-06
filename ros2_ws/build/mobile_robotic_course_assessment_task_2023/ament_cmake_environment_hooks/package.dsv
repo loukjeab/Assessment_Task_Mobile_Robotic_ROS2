@@ -1,0 +1,4 @@
+source;share/mobile_robotic_course_assessment_task_2023/local_setup.bash
+source;share/mobile_robotic_course_assessment_task_2023/local_setup.dsv
+source;share/mobile_robotic_course_assessment_task_2023/local_setup.sh
+source;share/mobile_robotic_course_assessment_task_2023/local_setup.zsh

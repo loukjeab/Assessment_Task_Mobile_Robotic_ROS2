@@ -1,0 +1,36 @@
+[0.018s] Invoking command in '/home/peeranut/ros2_ws/build/explore_lite': /usr/bin/cmake --build /home/peeranut/ros2_ws/build/explore_lite -- -j20 -l20
+[0.157s] [ 20%] Built target gtest_main
+[0.158s] [ 40%] Built target gtest
+[0.158s] [ 60%] Built target test_explore
+[0.169s] [100%] Built target explore
+[0.187s] Invoked command in '/home/peeranut/ros2_ws/build/explore_lite' returned '0': /usr/bin/cmake --build /home/peeranut/ros2_ws/build/explore_lite -- -j20 -l20
+[0.207s] Invoking command in '/home/peeranut/ros2_ws/build/explore_lite': /usr/bin/cmake --install /home/peeranut/ros2_ws/build/explore_lite
+[0.211s] -- Install configuration: ""
+[0.211s] -- Up-to-date: /home/peeranut/ros2_ws/install/explore_lite/include/explore/
+[0.211s] -- Up-to-date: /home/peeranut/ros2_ws/install/explore_lite/include/explore//costmap_tools.h
+[0.211s] -- Up-to-date: /home/peeranut/ros2_ws/install/explore_lite/include/explore//explore.h
+[0.211s] -- Up-to-date: /home/peeranut/ros2_ws/install/explore_lite/include/explore//frontier_search.h
+[0.211s] -- Up-to-date: /home/peeranut/ros2_ws/install/explore_lite/include/explore//costmap_client.h
+[0.211s] -- Up-to-date: /home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/config
+[0.212s] -- Up-to-date: /home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/config/params_costmap.yaml
+[0.212s] -- Up-to-date: /home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/config/params.yaml
+[0.212s] -- Up-to-date: /home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/launch
+[0.212s] -- Up-to-date: /home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/launch/explore.launch.py
+[0.214s] -- Up-to-date: /home/peeranut/ros2_ws/install/explore_lite/lib/explore_lite/explore
+[0.215s] -- Up-to-date: /home/peeranut/ros2_ws/install/explore_lite/share/ament_index/resource_index/package_run_dependencies/explore_lite
+[0.215s] -- Up-to-date: /home/peeranut/ros2_ws/install/explore_lite/share/ament_index/resource_index/parent_prefix_path/explore_lite
+[0.215s] -- Up-to-date: /home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.sh
+[0.215s] -- Up-to-date: /home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.dsv
+[0.215s] -- Up-to-date: /home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/environment/path.sh
+[0.215s] -- Up-to-date: /home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/environment/path.dsv
+[0.215s] -- Up-to-date: /home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/local_setup.bash
+[0.215s] -- Up-to-date: /home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/local_setup.sh
+[0.215s] -- Up-to-date: /home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/local_setup.zsh
+[0.215s] -- Up-to-date: /home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/local_setup.dsv
+[0.215s] -- Installing: /home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/package.dsv
+[0.215s] -- Up-to-date: /home/peeranut/ros2_ws/install/explore_lite/share/ament_index/resource_index/packages/explore_lite
+[0.215s] -- Up-to-date: /home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.215s] -- Up-to-date: /home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig.cmake
+[0.215s] -- Up-to-date: /home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig-version.cmake
+[0.215s] -- Up-to-date: /home/peeranut/ros2_ws/install/explore_lite/share/explore_lite/package.xml
+[0.218s] Invoked command in '/home/peeranut/ros2_ws/build/explore_lite' returned '0': /usr/bin/cmake --install /home/peeranut/ros2_ws/build/explore_lite
